@@ -1,0 +1,55 @@
+@use '@primer/primitives/dist/scss/colors/dark';
+@use '@primer/primitives/dist/scss/colors/dark_colorblind';
+@use '@primer/primitives/dist/scss/colors/dark_dimmed';
+@use '@primer/primitives/dist/scss/colors/dark_high_contrast';
+@use '@primer/primitives/dist/scss/colors/dark_tritanopia';
+@use '@primer/primitives/dist/scss/colors/light';
+@use '@primer/primitives/dist/scss/colors/light_colorblind';
+@use '@primer/primitives/dist/scss/colors/light_high_contrast';
+@use '@primer/primitives/dist/scss/colors/light_tritanopia';
+
+:root {
+  @include light.primer-colors-light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include dark.primer-colors-dark;
+  }
+}
+
+.theme-dark {
+  @include dark.primer-colors-dark;
+}
+
+.theme-dark-colorblind {
+  @include dark_colorblind.primer-colors-dark_colorblind;
+}
+
+.theme-dark-dimmed {
+  @include dark_dimmed.primer-colors-dark_dimmed;
+}
+
+.theme-dark-high-contrast {
+  @include dark_high_contrast.primer-colors-dark_high_contrast;
+}
+
+.theme-dark-tritanopia {
+  @include dark_tritanopia.primer-colors-dark_tritanopia;
+}
+
+.theme-light {
+  @include light.primer-colors-light;
+}
+
+.theme-light-colorblind {
+  @include light_colorblind.primer-colors-light_colorblind;
+}
+
+.theme-light-high-contrast {
+  @include light_high_contrast.primer-colors-light_high_contrast;
+}
+
+.theme-light-tritanopia {
+  @include light_tritanopia.primer-colors-light_tritanopia;
+}

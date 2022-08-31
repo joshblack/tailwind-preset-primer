@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "prettier --write '**/*.{js,md,scss,ts}' '!**/{build,es,lib,storybook,umd}/**'",
+    "format:diff": "prettier --list-different '**/*.{js,md,scss,ts}' '!**/{build,es,lib,storybook,umd}/**'"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
