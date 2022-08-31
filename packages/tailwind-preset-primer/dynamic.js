@@ -36,8 +36,6 @@ flatten(ts).forEach((key) => {
   theme.colors[key] = `var(--color-${key})`;
 });
 
-console.log(JSON.stringify(flatten(ts), null, 2));
-
 module.exports = {
   presets: [require('./base')],
   theme,

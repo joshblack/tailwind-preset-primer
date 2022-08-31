@@ -8,12 +8,12 @@
     "./dark-dimmed": "./dark-dimmed.js",
     "./dark-high-contrast": "./dark-high-contrast.js",
     "./dark-tritanopia": "./dark-tritanopia.js",
-    "./dark": "./dark",
-    "./dynamic": "./dynamic",
+    "./dark": "./dark.js",
+    "./dynamic": "./dynamic.js",
     "./light-colorblind": "./light-colorblind.js",
     "./light-high-contrast": "./light-high-contrast.js",
     "./light-tritanopia": "./light-tritanopia.js",
-    "./light": "./light"
+    "./light": "./light.js"
   },
   "dependencies": {
     "@primer/primitives": "^7.9.0",
