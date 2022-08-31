@@ -3,6 +3,18 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshblack/tailwind-preset-primer.git",
+    "directory": "packages/tailwind-preset-primer"
+  },
+  "bugs": "https://github.com/joshblack/tailwind-preset-primer/issues",
+  "keywords": [
+    "github",
+    "primer",
+    "design system",
+    "tailwind"
+  ],
   "exports": {
     ".": "./index.js",
     "./dark-colorblind": "./dark-colorblind.js",
@@ -19,5 +31,6 @@
   "dependencies": {
     "@primer/primitives": "^7.9.0",
     "change-case": "^4.1.2"
-  }
+  },
+  "sideEffects": false
 }
