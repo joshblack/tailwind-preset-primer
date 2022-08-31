@@ -1,7 +1,8 @@
 {
   "name": "tailwind-preset-primer",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "main": "index.js",
+  "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./dark-colorblind": "./dark-colorblind.js",
